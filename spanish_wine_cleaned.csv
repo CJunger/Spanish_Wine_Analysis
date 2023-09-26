@@ -1,4 +1,4 @@
-,winery,wine,year,rating,num_reviews,country,region,price,type,body,acidity
+id,winery,wine,year,rating,num_reviews,country,region,price,type,body,acidity
 2,Vega Sicilia,Unico,2009,4.8,1793,Espana,Ribera del Duero,324.95,Ribera Del Duero Red,5.0,3.0
 3,Vega Sicilia,Unico,1999,4.8,1705,Espana,Ribera del Duero,692.96,Ribera Del Duero Red,5.0,3.0
 4,Vega Sicilia,Unico,1996,4.8,1309,Espana,Ribera del Duero,778.06,Ribera Del Duero Red,5.0,3.0
