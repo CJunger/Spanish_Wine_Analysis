@@ -54,7 +54,8 @@ def bar_with_plotly():
      
     # Create Bar chart
     fig = px.bar(df, x='region', y='wine', color='region', barmode='group')
-     
+    fig.update_traces(width=1)
+    
     # Create graphJSON
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
      
