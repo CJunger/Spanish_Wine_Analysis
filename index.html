@@ -120,15 +120,16 @@
 <!-- Divider///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <!-- Section 3: Bubble chart of price vs the rating of the wines-->
     <section>
+        <label for="winery-dropdown">Select Winery:</label>
+        <select id="winery-dropdown"></select>
+
         <div class="row">
             <div class="col-md-12">
               <div id="price-rating-plot"></div>
             </div>
           </div>
         </div>
-      
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
         <script src="static/js/bubble_chart.js"></script>
         <script src="spanish_wine.json"></script>
     </section>
