@@ -100,6 +100,7 @@
 
 
 
+
 <!-- Divider///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <!-- Content section 3-->
         <section>
@@ -113,10 +114,12 @@
                             <h2 class="display-4">Decisions, Decisions</h2>
                             <p>Next, we will study our data to decide which region is right for us.</p>
                         </div>
+        <!-- Section 3: Bubble chart of Region and Wine Counts-->
                         <h6 class="display-6"><A HREF = "http://127.0.0.1:5000/bar">Region and Wine Counts</A></h6>
                              </div>
                         </div>
                         </div>
+        <!-- Section 3: Bar chart of Price by Region-->
                             <canvas></canvas>
                                 <div id="plot">
                                     <script src="spanish_wine.json"></script>
@@ -130,14 +133,14 @@
     <section>
         <label for="winery-dropdown">Select Winery:</label>
         <select id="winery-dropdown"></select>
-
+                            <canvas></canvas>
         <div class="row">
             <div class="col-md-12">
               <div id="price-rating-plot"></div>
             </div>
           </div>
         </div>
-
+        <canvas></canvas>
         <script src="static/js/bubble_chart.js"></script>
         <script src="spanish_wine.json"></script>
     </section>
