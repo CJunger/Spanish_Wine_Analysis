@@ -39,8 +39,10 @@ Price is not the sole indicator of quality or popularity
 
 
 ## Price and Region
-Wine prices range from a few dollars to a few thousand Euros
-Price is not the sole indicator of quality or popularity
+Wine in Spain ranges from a few to a few thousand Euros per bottle. Our dataset for this project will observe a range from $4.99 to $877.85 per bottle. However, price does not necessarily indicate popularity as Mucho mas Tinto, the lowest priced bottle, has the most at a whopping 32,624 reviews. While Unico, the most expensive, has only 935 reviews. 
+
+Taking a closer look at the relationship between total price and region we expose some limitations of this dataset. The first thing you will notice is the region, Ribera del Duero, has a disproportionately larger total cost than any other region represented here. This is because 37% (165/443 entries) of the bottles of wine in this dataset originate from this region. This is 1 of 11 of the highest quality regions located along the course of the Duero River and was also awarded Wine Region of the year in 2012. We can speculate that this influx of data could be due to high tourism volume. 
+
 
 
 ## Summary: Findings & Opportunities 
@@ -69,4 +71,7 @@ Price is not the sole indicator of quality or popularity
 - https://community.plotly.com/t/bar-width-using-plotly-express/47580/2
 - https://www.geeksforgeeks.org/create-a-bar-chart-from-a-dataframe-with-plotly-and-flask/
 - https://www.w3schools.com/js/js_graphics_chartjs.asp
+- https://en.wikipedia.org/wiki/Ribera_del_Duero
+- JavaScript written with the aid of tutor Jesse Young.
+
 
