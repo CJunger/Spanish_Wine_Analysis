@@ -1,3 +1,4 @@
+// This JavaScript was troubleshot and completed with the aid of tutor Jesse Young.
 //Code to read in JSON 
 d3.json('spanish_wine.json').then((data) => {
 
