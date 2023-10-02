@@ -5,10 +5,12 @@
 1. [Introduction](#introduction)
 2. [Data Processing](#data-processing)
 3. [Regions and Wineries](#regions-and-wineries)
-4. [Ratings and Prices](#ratingsand-prices)
+4. [Region and Wine Counts](#region-and-wine-counts)
 5. [Price and Region](#price-and-region)
-6. [Summary: Findings & Opportunities](#summary-findings-&-opportunities)
-7. [References](#references)
+6. [Ratings and Prices](#ratings-and-prices)
+7. [HTML Page Demo](#html-page-demo)
+8. [Summary: Findings & Opportunities](#summary-findings-&-opportunities)
+9. [References](#references)
 
 
 ## Introduction
@@ -33,9 +35,9 @@ Over 400 wine varieties
 Mountain ranges influence the climate of several wine regions
 
 
-## Ratings and Prices
-Wine prices range from a few dollars to a few thousand Euros
-Price is not the sole indicator of quality or popularity
+## Region and Wine Counts
+Comparing total wines produced by region
+Interactive hover chart shows wine types
 
 
 ## Price and Region
@@ -44,10 +46,17 @@ Wine in Spain ranges from a few to a few thousand Euros per bottle. Our dataset 
 Taking a closer look at the relationship between total price and region we expose some limitations of this dataset. The first thing you will notice is the region, Ribera del Duero, has a disproportionately larger total cost than any other region represented here. This is because 37% (165/443 entries) of the bottles of wine in this dataset originate from this region. This is 1 of 11 of the highest quality regions located along the course of the Duero River and was also awarded Wine Region of the year in 2012. We can speculate that this influx of data could be due to high tourism volume. 
 
 
+## Ratings and Prices
+Wine prices range from a few dollars to a few thousand euros
+Price is not the sole indicator of quality or popularity
+
+
+## HTML Page Demo
+
 
 ## Summary: Findings & Opportunities 
 
-### Project Limitations
+### Project Constraints
 1. Disproportionate rating sample size skewed results
 - False indicator of popularity, quality, and regional offerings
 
