@@ -1,6 +1,5 @@
 //Code to read in JSON 
 d3.json('spanish_wine.json').then((data) => {
-    // console.log(data);
 
 // Initialize arrays
 let id = []
