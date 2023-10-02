@@ -1,5 +1,4 @@
-# Project 3:
-# Spanish Wine Analysis
+# Project 3: Spanish Wine Analysis
 
 ## Table of Contents
 
@@ -24,11 +23,7 @@ Technologies used:
 - SQLite database & Flask
 - Javascript
 - HTML/CSS
-- Libraries
--- D3
--- Plotly
--- Leaflet
--- Bootstrap
+- Libraries: D3, Plotly, Leaflet, Bootstrap
 
 
 ## Regions and Wineries
@@ -37,9 +32,11 @@ Most widely planted wine-producing country (2.9 million acres), second largest 
 Over 400 wine varieties
 Mountain ranges influence the climate of several wine regions
 
+
 ## Ratings and Prices
 Wine prices range from a few dollars to a few thousand Euros
 Price is not the sole indicator of quality or popularity
+
 
 ## Price and Region
 Wine prices range from a few dollars to a few thousand Euros
@@ -48,11 +45,9 @@ Price is not the sole indicator of quality or popularity
 
 ## Summary: Findings & Opportunities 
 
-
 ### Project Limitations
 1. Disproportionate rating sample size skewed results
 - False indicator of popularity, quality, and regional offerings
-
 
 ### Additional Prospects
 1. Customized wine recommendations based on user flavor preference
