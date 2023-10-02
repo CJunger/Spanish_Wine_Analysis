@@ -26,6 +26,7 @@ def index():
     return (
         f"Available Routes:<br/>"
         f"/bar<br/>"
+        f"/api/v1.0"
     )
 
 
@@ -63,6 +64,27 @@ def bar_with_plotly():
     return render_template('test.html', graphJSON=graphJSON)
 
     cnx.close()
+
+@app.route("/api/v1.0")
+def data():
+
+# Create connection to DB and pull all the info needed
+    
+    # create connection 
+    cnx = sqlite3.connect("sqlite_wine.db")
+    cursor = cnx.cursor()
+    
+    # query data needed
+    cursor.execute("SELECT * FROM spanish_wine;")
+    
+    #save results as variable
+    results = cursor.fetchall()
+    
+    cnx.close()
+
+    """return the data as json"""
+    
+    return jsonify(results)
 
 
 #tell Flask to run
