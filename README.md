@@ -50,8 +50,7 @@ Taking a closer look at the relationship between total price and region we expos
 
 
 ## Ratings and Prices
-Wine prices range from a few dollars to a few thousand euros
-Price is not the sole indicator of quality or popularity
+We sought to compare wine ratings and prices by region. Our bubble chart demonstrated that a moderate number of expensive wines had a large number of reviews. The more affordable wines had fewer reviews individually, but there were many more affordable wines reviewed.
 
 
 ## HTML Page Demo
