@@ -38,7 +38,10 @@ Mountain ranges influence the climate of several wine regions
 ## Region and Wine Counts
 Comparing total wines produced by region
 Interactive hover chart shows wine types
+Our Flask app has two routes. The bar route creates the Bar Chart for the Region and Wine counts.
+The API route creates a JSON API of the entire dataset.
 
+When we compare the region and wine counts, we can see that La Roija is by far the most prolific region when it comes to wine in our data set.  This region is in the north of the Iberian Peninsula. The region unsurprisingly is well known for its wines under the brand Denominación de Origen Calificada Rioja.  The next two closest regions are Priorato and Unico but even combined it doesn't equal the La Roija region.
 
 ## Price and Region
 Wine in Spain ranges from a few to a few thousand Euros per bottle. Our dataset for this project will observe a range from $4.99 to $877.85 per bottle. However, price does not necessarily indicate popularity as Mucho mas Tinto, the lowest priced bottle, has the most at a whopping 32,624 reviews. While Unico, the most expensive, has only 935 reviews. 
@@ -63,7 +66,6 @@ Price is not the sole indicator of quality or popularity
 ### Additional Prospects
 1. Customized wine recommendations based on user flavor preference
 2. Potential correlations between harvest year and ratings
-3. Possible links between rating and price
 
 ### Future Development
 1. Expansion to include datasets from other countries
